@@ -8,3 +8,12 @@ header {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 400;
+}
