@@ -37,19 +37,19 @@
     <img src="imgs/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Auctive</h3>
 
   <p align="center">
-    project_description
+    Auctive è una piattaforma di aste virtuale che permette di mettere in vendita qualsiasi genere di oggetto, fisico o digitale. Il venditore crea l’asta inserendo le informazioni sul prodotto che viene postato sulla bacheca. L’acquirente naviga nella bacheca e cerca il prodotto che fa per lui, propone un'offerta e se è la migliore si aggiudica il prodotto.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PaoloDAlessandro/SpringBootProject"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="http://dev-auctive.sa-projects.it/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/paoloDAlessandro/SpringBootProject/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/paoloDAlessandro/SpringBootProject/issues">Request Feature</a>
   </p>
 </div>
 
@@ -96,13 +96,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
+* [HTML](https://html.com/)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [JavaScript](https://www.javascript.com/)
+* [SpringBoot](https://spring.io/)
+* [SQL](https://www.mysql.com/)
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
