@@ -45,7 +45,7 @@
     <a href="https://github.com/PaoloDAlessandro/SpringBootProject"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://dev-auctive.sa-projects.it/">View Demo</a>
+    <a href="http://dev-auctive.sa-projects.it/" target = "_blank">View Demo</a>
     ·
     <a href="https://github.com/paoloDAlessandro/SpringBootProject/issues">Report Bug</a>
     ·
