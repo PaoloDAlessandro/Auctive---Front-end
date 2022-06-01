@@ -1,0 +1,16 @@
+.multiple-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.multiple-input input {
+    width: 40% !important;
+}
+
+.log-in .column-60 form input {
+    margin-bottom: 40px;
+}
+
+.log-in .alternative_log-in {
+    margin-top: 5vh;
+}

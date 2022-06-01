@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../fonts/stylesheet.css">
-    <link rel="stylesheet" href="log-in.css">
+    <link rel="stylesheet" href="../log-in/log-in.css">
+    <link rel="stylesheet" href="sing-up.css">
     <link rel="stylesheet" href="../main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9d05a115fd.js" crossorigin="anonymous"></script>
@@ -58,11 +59,17 @@
         </div>
         <div class="column-60">
             <form action="">
-                <input type="text" name="username" id="username" placeholder="Username">
-                <input type="text" name="password" id="password" placeholder="Password">
-                <a href="">Forgot password?</a>
+                <div class="multiple-input">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="surname" id="surname" placeholder="Surname">
 
-                <button type="submit">Log-in</button>
+                </div>
+
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="username" id="username" placeholder="Username">
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <button type="submit">Sign-in</button>
             </form>
 
             <div class="alternative_log-in">
@@ -72,8 +79,8 @@
             </div>
 
             <div class="no-account">
-                <h4>Don't have an account?</h4>
-                <a href="#sing-up">Sing up</a>
+                <h4>Have an account?</h4>
+                <a href="#sing-up">Log-in</a>
             </div>
         </div>
     </section>
