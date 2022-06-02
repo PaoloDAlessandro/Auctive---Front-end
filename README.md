@@ -40,7 +40,7 @@
 <h3 align="center">Auctive</h3>
 
   <p align="center">
-    Auctive è una piattaforma di aste virtuale che permette di mettere in vendita qualsiasi genere di oggetto, fisico o digitale. Il venditore crea l’asta inserendo le informazioni sul prodotto che viene postato sulla bacheca. L’acquirente naviga nella bacheca e cerca il prodotto che fa per lui, propone un'offerta e se è la migliore si aggiudica il prodotto.
+    Auctive is a virtual auction platform that allows you to sell any kind of object, physical or digital. The seller creates the auction by entering information about the product that is posted to the bulletin board. The buyer browses the bulletin board and looks for the product that suits him, proposes an offer and if it is the best he wins the product.
     <br />
     <a href="https://github.com/PaoloDAlessandro/SpringBootProject"><strong>Explore the docs »</strong></a>
     <br />
@@ -86,10 +86,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -110,16 +106,93 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+First of all you have to config. the repository locally on your machine, please open visual studio code, create a new empty folder and clone on it the repository (https://github.com/PaoloDAlessandro/SpringBootProject).
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* code
   ```sh
-  npm install npm@latest -g
+  git clone https://github.com/PaoloDAlessandro/SpringBootProject
   ```
+
+### Developer configuration
+
+For an error during repository initialization, the repo is not in the main folder of the project but in a sub-folder. No access it:
+* code
+  ```sh
+  cd SpringBootProject
+  ```
+ 
+ After that you have to config. the branch that you have locally on your machine, you need three branches:
+ 
+ * main (already present)
+ * dev
+ * dev-your_name
+ 
+ * dev
+     ```sh
+    git checkout -t origin/dev
+    ```
+    
+ * dev-your_name
+     ```sh
+    git checkout -t origin/dev-your_name
+    ```
+    
+<p><b>ALERT:</b> if you don't know which is your_name variable, there is a list at <a href = "#your_name">the end of this file</a></p>
+
+
+To switch to dev branch you can use this code:
+     ```sh
+    git checkout dev
+    ```
+    
+To switch to dev-your_name branch you can use this code:
+     ```sh
+    git checkout dev-your_name
+    ```
+ 
+ NOTE: remember to always work on dev-your_name branch and NOT in dev or main branch.
+ 
+ 
+### Branches explanation:
+
+<ul>
+  <li><b>main:</b> the main branch is that one customers view, so only the well working changes can be pushed here (after all team components review and approval)
+   <br> The destination address of this branch can be reached at <a href = "http://auctive.sa-projects.it/">this address</a>
+  </li>
+  <br>
+  <li><b>dev:</b> the dev branch is that one developers use and share to view all the changes together, you can push here all the features you have developed but they have to work well at least alone (no approval of any of the team components is request). <br> The destination addres of this branch can be reached at <a href = "http://dev-auctive.sa-projects.it/">this address</a>
+ </li>
+  <br>
+ <li><b>dev-your_name: </b> the dev-your-name branch is that one single developer use to test features and fixs stuff, you can push here all you want to push, to test the stuffs you are developing you can use Live server of visual studio (the button on the bottom-right corner ["Go Live"])</li>
+</ul>
+
+### Branches usage:
+
+Always work in dev-your-name branch, when you have a working feature, first of all push it on your branch creating a commit and using:
+   ```sh
+   git push
+   ```
+<br>
+Done that you can push the feature on dev branch, to do that change the branch to dev branch with:
+   ```sh
+   git checkout dev
+   ```
+<br>
+
+So fetch:
+
+   ```sh
+   git fetch
+   ```
+
+<br>
+
+
+
+
+
+
+
 
 ### Installation
 
@@ -210,6 +283,20 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 * []()
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Your_name code
+
+<div id = "your_name">
+  <ul>
+  <li>Robert -> robert</li>
+  <li>Jimwell -> jim</li>
+  <li>Marco -> marco</li>
+  <li>Paolo -> paolo</li>
+  <li>Nicholas -> nicholas</li>
+  </ul>
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
