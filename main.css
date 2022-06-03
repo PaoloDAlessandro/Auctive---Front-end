@@ -110,6 +110,7 @@ h1 {
         justify-content: center;
         transition: .4s;
         transform: translateX(-100%);
+        z-index: 999;
     }
 
     .mobile-nav_options_container a {

@@ -4,7 +4,7 @@
 }
 
 .multiple-input input {
-    width: 40% !important;
+    width: 48% !important;
 }
 
 .log-in .column-60 form input {
@@ -15,6 +15,10 @@
     margin-top: 5vh;
 }
 
+.sign-in_no-account {
+    margin-top: 3vh !important;
+}
+
 .sign-up_title h1 {
     margin-top: 4vh;
     font-weight: 500;
@@ -23,5 +27,13 @@
 }
 
 .sign-up_form {
-    margin-top: 6vh !important;
+    margin-top: 4vh !important;
+}
+
+.input_god {
+    margin-bottom: 30px !important;
+}
+
+.sign-in_button {
+    margin-top: 0 !important;
 }
