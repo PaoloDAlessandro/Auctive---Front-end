@@ -16,6 +16,7 @@ body {
 }
 
 .log-in .column-40 {
+    position: relative;
     display: flex;
     width: 40%;
     height: 100%;
@@ -25,6 +26,24 @@ body {
     align-items: center;
     background-color: #f0f1f37c;
     border-right: 1px solid #a8a3a04d;
+}
+
+.log-in .column-40 .column-40_absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -54%);
+}
+
+.log-in_title h1 {
+    margin-top: 7vh;
+    font-weight: 500;
+    font-size: 32px;
+    color: #183153;
+}
+
+.log-in .column-40 .log-in_logo {
+    text-align: center;
 }
 
 .log-in .column-40 .log-in_logo img {
@@ -59,7 +78,7 @@ body {
 }
 
 .log-in .column-60 form {
-    margin-top: 12vh;
+    margin-top: 8vh;
     width: 50%;
 }
 
@@ -95,6 +114,7 @@ body {
     display: block;
     padding: 20px 40px;
     border-radius: 16px;
+    font-family: inherit;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -110,11 +130,15 @@ body {
     cursor: pointer;
 }
 
+.sign-in_button {
+    margin-top: 30px !important;
+}
+
 .log-in .alternative_log-in {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
-    margin-top: 12vh;
+    margin-top: 8vh;
 }
 
 .log-in .alternative_log-in .option {
@@ -139,7 +163,7 @@ body {
 }
 
 .log-in .no-account {
-    margin-top: 3vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
@@ -166,15 +190,18 @@ body {
 
     .mobile_log-in {
         display: flex;
-        width: 80%;
-        height: 60vh;
-        border: 1px solid red;
+        width: 90%;
+        height: auto;
+        padding-bottom: 4vh;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10vh;
         flex-direction: column;
         align-items: center;
-    }
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
 
     .mobile_log-in_logo {
         width: fit-content;
@@ -215,6 +242,11 @@ body {
         height: 36px;
         padding: 10px;
         margin-bottom: 40px;
+        max-width: 400px;
+    }
+    
+    .mobile_log-in_form input:last-of-type {
+        margin-bottom: 30px;
     }
 
     .mobile_log-in_button {
@@ -229,6 +261,42 @@ body {
         font-weight: 600;
         background-color: #FFD43B;
         box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+    }
+
+    .mobile-alternative_log-in {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-evenly;
+        margin-top: 3vh;
+    }
+    
+    .mobile-alternative_log-in_single-img {
+        position: relative;
+        height: 50px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 1px solid #C7C7C7
+    }
+
+    .mobile-alternative_log-in_single-img img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 34px;
+    }
+
+    .mobile_no-account {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.4vh;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .mobile_no-account a {
+        color: #1E1E1E;
     }
 
 }
