@@ -1,0 +1,295 @@
+*{
+    margin:0 ; box-sizing:border-box;
+}
+
+#index-body{
+    font-family: "Archivo", sans-serif;
+}
+
+.chosing-section{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 720px;
+    width: 30%;
+    background-color: #FFFFFF;
+    box-shadow: 6px 0px 7px 0px rgba(196,196,196,0.9);
+}
+
+.logo-page{
+    width: 20%;
+    margin-top: 10px;
+}
+
+
+.logo-text{
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -55px;
+}
+
+.chosing-div{
+    float: left;
+    width: 94%;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: 3%;
+    margin-top: 20px;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.chosing-div p{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #C4C4C4;
+    font-weight: 500;
+}
+
+#clicked-profilo{
+    background-color: #FAD643;
+    border: 1px solid black;
+}
+
+#clicked-pagamento{
+    background-color: #C4C4C41A;
+}
+
+
+#clicked-prodotti{
+    background-color: #C4C4C41A;
+}
+
+#clicked-record{
+    background-color: #C4C4C41A;
+}
+
+#clicked-profilo p{
+    color: black;
+}
+
+.account-data-section{
+    width: 70%;
+    float: right;
+    height: 720px;
+}
+
+.your-profile{
+    width: 100%;
+    height: auto;
+}
+
+.page-title{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.profile-image{
+    margin-top: 30px;
+    width: 190px;
+    height: 190px;
+    margin-left: 445px;
+    border-radius: 130px;
+}
+
+.username{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.data-name{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top:60px;
+    margin-left: 12%;
+}
+
+.user-data-section{
+    float: right;
+    width: 60%;
+    height: 60px;
+    border-radius: 40px;
+    margin-right: 15%;
+    margin-top: -45px;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.name{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-left: 5%;
+}
+
+.name-data-section{
+    float: left;
+    width: 20%;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: 1%;
+    margin-top: 5.5%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.surname{
+    float: right;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 75px;
+    margin-right: 1%;
+}
+
+.surname-data-section{
+    float: right;
+    width: 20%;
+    height: 60px;
+    border-radius: 40px;
+    margin-right: 5%;
+    margin-top: 5.5%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.e-mail{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 190px;
+    margin-left: -28%;
+}
+
+.e-mail-data-section{
+    float: left;
+    width: 40%;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: -19.5%;
+    margin-top: 16%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+
+.sessoM{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-left: 15%;
+}
+
+.sessoM-data-section{
+    float: left;
+    width: 10%;
+    height: 20px;
+    border-radius: 40px;
+    margin-left: -1.5%;
+    margin-top: 7.2%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+}
+
+.sessoF{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 75px;
+    margin-left: 2%;
+}
+
+.sessoF-data-section{
+    float: left;
+    width: 10%;
+    height: 20px;
+    border-radius: 40px;
+    margin-left: -1.5%;
+    margin-top: 7.2%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+}
+
+.number{
+    float: left;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 180px;
+    margin-left: -87.5%;
+}
+
+.suffisso{
+    float: left;
+    width: 10%;
+    height: 60px;
+    border-radius: 40px 0px 0px 40px;
+    margin-left: -76%;
+    margin-top: 15.5%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.number-data-section{
+    float: left;
+    width: 30%;
+    height: 60px;
+    border-radius: 0px 40px 40px 0px;
+    margin-left: -66.5%;
+    margin-top: 15.5%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.eta{
+    float: right;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 75px;
+    margin-right: 1%;
+}
+
+.eta-data-section{
+    float: right;
+    width: 20%;
+    height: 60px;
+    border-radius: 40px;
+    margin-right: 5%;
+    margin-top: 5.5%;
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #C4C4C41A;
+    border:1px solid #C4C4C41A;
+    box-shadow: 5px 5px 7px 0px rgba(196,196,196,0.9);
+}
+
+.space{
+    float: left;
+    width: 100%;
+    height: 40px;
+    margin-top: 1%;
+}
