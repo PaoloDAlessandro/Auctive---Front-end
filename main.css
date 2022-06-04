@@ -94,6 +94,11 @@ h1 {
 }
 
 @media screen and (max-width: 1000px) {
+
+    header {
+        position: relative;
+    }
+
     .mobile-nav {
         display: flex;
         flex-direction: column;
@@ -105,8 +110,8 @@ h1 {
         display: flex;
         position: absolute;
         width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0, 0.8);
+        height: 100vh;
+        background-color: rgba(0,0,0, 0.9);
         top:0px;
         right:0px;
         bottom:0px;
