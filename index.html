@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="./fonts/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9d05a115fd.js" crossorigin="anonymous"></script>
@@ -12,8 +13,10 @@
 <body>
     <header>
         <div class="logo">
-            <img src="./imgs/logo.png" alt="">
-            <h2>uctive</h2>
+            <a href="index.html">
+                <img src="./imgs/logo.png" alt="">
+                <h2>uctive</h2>
+            </a>
         </div>
         <nav>
             <a href="index.html">home</a>
@@ -28,6 +31,7 @@
             <div class="hamburger_line"></div>
         </nav>
 
+
         <div class="mobile-nav_options_container" id="mobile-nav_options_container">
             <a href="">home</a>
             <a href="">about</a>
@@ -39,8 +43,35 @@
         </div>
     </header>
 
+    <div class="sub-nav">
+        <ul>
+            <a href="#Art"><li>Art</li></a>
+            <a href="#Books"><li>Books</li></a>
+            <a href="#Movies"><li>Movies</li></a>
+            <a href="#Toys"><li>Toys</li></a>
+            <a href="#Ancient_coins"><li>Ancient coins</li></a>
+            <a href="#Paintings"><li>Paintings</li></a>
+            <a href="#Antiques_trades"><li>Antiques trades</li></a>
+            <a href="#Picture_cards"><li>Picture cards</li></a>
+            <a href="#Computers"><li>Computers</li></a>
+            <a href="#Luggage"><li>Luggage</li></a>
+            <a href="#Automotive"><li>Automotive</li></a>
+            <a href="#NFTs"><li>NFTs</li></a>
+        </ul>
+    </div>
+
+
+    <div class="background_wallpaper">
+        <img src="./imgs/background/timon-klauser-3MAmj1ZKSZA-unsplash.jpg" alt="">
+        <div class="centered_search-bar" id="search_bar">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="text" id="search_input" placeholder="Search for your next treasure">
+        </div>
+    </div>
+
 
     <script src="index.js"></script>
+    <script src="home.js"></script>
 
 </body>
 </html>
