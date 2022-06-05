@@ -1,97 +1,135 @@
-"use strict";
+const profilo = document.getElementById("clicked-profilo");
+const pagamento = document.getElementById("clicked-pagamento");
+const record = document.getElementById("clicked-record");
+const prodotti = document.getElementById("clicked-prodotti");
 
-document.getElementById("clicked-profilo").onclick = function(){
-    button_profilo();
+const profilo_title = document.getElementById("account-title");
+const pagamento_title = document.getElementById("payment-title");
+const record_title = document.getElementById("record-title");
+const prodotti_title = document.getElementById("products-title");
+
+const profilo_section = document.getElementById("account-section");
+const pagamento_section = document.getElementById("payment-section");
+const record_section = document.getElementById("record-section");
+const prodotti_section = document.getElementById("prodotti-section");
+
+const background_dorato = "#FFD43B";
+const background_grigio = "#C4C4C41A";
+
+const text_dark_blue = "#183153";
+const text_gray = "#C4C4C4";
+
+profilo.onclick = function(){
+    profilo_click();
 }
 
-function button_profilo(){
-    if(document.getElementById("clicked-profilo").style.backgroundColor == "#C4C4C41A"){
-        document.getElementById("clicked-profilo").style.backgroundColor = "#FAD643";
-        document.getElementById("clicked-profilo").style.border = "1px solid black";
-        document.getElementById("clicked-profilo").style.color = "black";
+function profilo_click(){
+            
+        profilo_title.style.color = text_dark_blue;
+        profilo.style.backgroundColor = background_dorato;
+        profilo.style.border = "1px solid #183153";
+        profilo_section.style.display = "block";
 
-        document.getElementById("clicked-pagamento").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-pagamento").style.border = "none";
-        document.getElementById("clicked-pagamento").style.color = "#C4C4C4";
+        pagamento_title.style.color = text_gray;
+        pagamento.style.backgroundColor = background_grigio;
+        pagamento.style.border = "0px";
+        pagamento_section.style.display = "none";
 
-        document.getElementById("clicked-record").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-record").style.border = "none";
-        document.getElementById("clicked-record").style.color = "#C4C4C4";
+        record_title.style.color = text_gray;
+        record.style.backgroundColor = background_grigio;
+        record.style.border = "0px";
+        record_section.style.display = "none";
 
-        document.getElementById("clicked-prodotti").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-prodotti").style.border = "none";
-        document.getElementById("clicked-prodotti").style.color = "#C4C4C4";
-    }
-};
+        prodotti_title.style.color = text_gray;
+        prodotti.style.backgroundColor = background_grigio;
+        prodotti.style.border = "0px";
+        prodotti_section.style.display = "none";
 
-document.getElementById("clicked-pagamento").onclick = function(){
-    button_pagamento();
+}
+    
+
+pagamento.onclick = function(){
+    pagamento_click();
 }
 
-function button_pagamento(){
-    if(document.getElementById("clicked-pagamento").style.backgroundColor == "#C4C4C41A"){
-        document.getElementById("clicked-pagamento").style.backgroundColor = "#FAD643";
-        document.getElementById("clicked-pagamento").style.border = "1px solid black";
-        document.getElementById("clicked-pagamento").style.color = "black";
+function pagamento_click(){
+        
+    pagamento_title.style.color = text_dark_blue;
+    pagamento.style.backgroundColor = background_dorato;
+    pagamento.style.border = "1px solid #183153";
+    pagamento_section.style.display = "block";
+        
+    profilo_title.style.color = text_gray;
+    profilo.style.backgroundColor = background_grigio;
+    profilo.style.border = "0px";
+    profilo_section.style.display = "none";
 
-        document.getElementById("clicked-profilo").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-profilo").style.border = "none";
-        document.getElementById("clicked-profilo").style.color = "#C4C4C4";
+    record_title.style.color = text_gray;
+    record.style.backgroundColor = background_grigio;
+    record.style.border = "0px";
+    record_section.style.display = "none";
 
-        document.getElementById("clicked-record").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-record").style.border = "none";
-        document.getElementById("clicked-record").style.color = "#C4C4C4";
-
-        document.getElementById("clicked-prodotti").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-prodotti").style.border = "none";
-        document.getElementById("clicked-prodotti").style.color = "#C4C4C4";
-    }
-};
-
-document.getElementById("clicked-record").onclick = function(){
-    button_record();
+    prodotti_title.style.color = text_gray;
+    prodotti.style.backgroundColor = background_grigio;
+    prodotti.style.border = "0px";
+    prodotti_section.style.display = "none";
+    
+    
 }
 
-function button_record(){
-    if(document.getElementById("clicked-record").style.backgroundColor == "#C4C4C41A"){
-        document.getElementById("clicked-record").style.backgroundColor = "#FAD643";
-        document.getElementById("clicked-record").style.border = "1px solid black";
-        document.getElementById("clicked-record").style.color = "black";
-
-        document.getElementById("clicked-profilo").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-profilo").style.border = "none";
-        document.getElementById("clicked-profilo").style.color = "#C4C4C4";
-
-        document.getElementById("clicked-pagamento").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-pagamento").style.border = "none";
-        document.getElementById("clicked-pagamento").style.color = "#C4C4C4";
-
-        document.getElementById("clicked-prodotti").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-prodotti").style.border = "none";
-        document.getElementById("clicked-prodotti").style.color = "#C4C4C4";
-    }
-};
-
-document.getElementById("clicked-prodotti").onclick = function(){
-    button_record();
+record.onclick = function(){
+    record_click();
 }
 
-function button_prodotti(){
-    if(document.getElementById("clicked-prodotti").style.backgroundColor == "#C4C4C41A"){
-        document.getElementById("clicked-prodotti").style.backgroundColor = "#FAD643";
-        document.getElementById("clicked-prodotti").style.border = "1px solid black";
-        document.getElementById("clicked-prodotti").style.color = "black";
+function record_click(){
 
-        document.getElementById("clicked-profilo").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-profilo").style.border = "none";
-        document.getElementById("clicked-profilo").style.color = "#C4C4C4";
+    record_title.style.color = text_dark_blue;
+    record.style.backgroundColor = background_dorato;
+    record.style.border = "1px solid #183153";
+    record_section.style.display = "block";
+        
+    profilo_title.style.color = text_gray;
+    profilo.style.backgroundColor = background_grigio;
+    profilo.style.border = "0px";
+    profilo_section.style.display = "none";
 
-        document.getElementById("clicked-pagamento").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-pagamento").style.border = "none";
-        document.getElementById("clicked-pagamento").style.color = "#C4C4C4";
+    pagamento_title.style.color = text_gray;
+    pagamento.style.backgroundColor = background_grigio;
+    pagamento.style.border = "0px";
+    pagamento_section.style.display = "none";
 
-        document.getElementById("clicked-record").style.backgroundColor = "#C4C4C41A";
-        document.getElementById("clicked-record").style.border = "none";
-        document.getElementById("clicked-record").style.color = "#C4C4C4";
-    }
-};
+    prodotti_title.style.color = text_gray;
+    prodotti.style.backgroundColor = background_grigio;
+    prodotti.style.border = "0px"; 
+    prodotti_section.style.display = "none";   
+
+}
+
+prodotti.onclick = function(){
+    prodotti_click();
+}
+
+function prodotti_click(){
+
+    prodotti_title.style.color = text_dark_blue;
+    prodotti.style.backgroundColor = background_dorato;
+    prodotti.style.border = "1px solid #183153";
+    prodotti_section.style.display = "block";
+
+        
+    profilo_title.style.color = text_gray;
+    profilo.style.backgroundColor = background_grigio;
+    profilo.style.border = "0px";
+    profilo_section.style.display = "none";
+
+    pagamento_title.style.color = text_gray;
+    pagamento.style.backgroundColor = background_grigio;
+    pagamento.style.border = "0px";
+    pagamento_section.style.display = "none";
+
+    record_title.style.color = text_gray;
+    record.style.backgroundColor = background_grigio;
+    record.style.border = "0px"; 
+    record_section.style.display = "none";  
+
+}

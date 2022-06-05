@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="profilo.css">
     <link rel="stylesheet" href="../../fonts/stylesheet.css">
-    <script src="profilo.js"></script>
+    
     <title>Document</title>
 </head>
 <body id="index-body">
 
-    <section class="account-data-section">
+    <section class="account-data-section" id="account-section">
         <div class="your-profile">
             
             <h1 class="page-title">Il tuo profilo</h1>
 
-            <img src="../../imgs/imageprofile.jpg" class="profile-image"/>
+            <img src="../../imgs/account/imageprofile.jpg" class="profile-image"/>
 
             <h1 class="username">DeadHeadShot1357</h1>
 
@@ -57,28 +57,158 @@
         </div>
     </section>
 
+    <section class="account-data-section" id="payment-section">
+        
+        <h1 class="page-title">I tuoi metodi di pagamento</h1>
+
+        <div class="scroll-cards">
+            <div class="credit-card_div">
+
+                <img src="../../imgs/account/master.png" class="card-image"/>
+                <h2 class="card-number">**** **** **** **90</h2>
+                <h2 class="card-owner">Marco Stefani</h2>
+                <i class="fa-solid fa-trash-can" id="trash-can"></i>
+    
+            </div>
+    
+            <div class="credit-card_div">
+    
+                <img src="../../imgs/account/master.png" class="card-image"/>
+                <h2 class="card-number">**** **** **** **45</h2>
+                <h2 class="card-owner">Marco Stefani</h2>
+                <i class="fa-solid fa-trash-can" id="trash-can"></i>
+                
+            </div>
+        </div>
+        
+        <div class="bottom-div">
+            <i class="fa-solid fa-circle-plus" id="add-card"></i>
+        </div>
+
+    </section>
+
+    <section class="account-data-section" id="record-section">
+        
+        <h1 class="page-title">Record delle attività effettuate</h1>
+
+        <h1 class="div-title">Aste effettuate</h1>
+
+        <div class="record-effettuate">
+            <p class="aste-partecipate">Aste partecipate:</p>
+            <p class="aste-partecipate_number">0</p>
+
+            <p class="aste-vinte">Aste vinte:</p>
+            <p class="aste-vinte_number">0</p>
+
+            </br>
+            </br>
+
+            <p class="totale-offerte">Totale offerte:</p>
+            <p class="totale-offerte_number">0</p>
+
+            <p class="aste-perse">Aste perse:</p>
+            <p class="aste-perse_number">0</p>
+        </div>
+
+    </section>
+
+    <section class="account-data-section" id="prodotti-section">
+        
+        <h1 class="page-title">I miei prodotti</h1>
+
+        <div class="prodotti-div">
+            <img src="../../imgs/account/nft.jpg" class="img-prodotto"/>
+            
+            <div class="product-info-text">
+                <p class="nome_creatore">Nome creatore:</p>
+                <p class="nome_creatore">Nome prodotto:</p>
+                <p class="nome_creatore">Categoria prodotto:</p>
+                <p class="nome_creatore">Prezzo prodotto:</p>
+            </div>
+
+            <div class="product-info-data">
+                <p class="nome_creatore_data">Marco</p>
+                <p class="nome_creatore_data">Marco#1357</p>
+                <p class="nome_creatore_data">NFT</p>
+                <p class="nome_creatore_data">99.50€</p>
+            </div>
+            
+
+        </div>
+
+        <div class="prodotti-div">
+            <img src="../../imgs/account/nft.jpg" class="img-prodotto"/>
+            
+            <div class="product-info-text">
+                <p class="nome_creatore">Nome creatore:</p>
+                <p class="nome_creatore">Nome prodotto:</p>
+                <p class="nome_creatore">Categoria prodotto:</p>
+                <p class="nome_creatore">Prezzo prodotto:</p>
+            </div>
+
+            <div class="product-info-data">
+                <p class="nome_creatore_data">Marco</p>
+                <p class="nome_creatore_data">Marco#1357</p>
+                <p class="nome_creatore_data">NFT</p>
+                <p class="nome_creatore_data">99.50€</p>
+            </div>
+            
+
+        </div>
+
+        <div class="prodotti-div">
+            <img src="../../imgs/account/nft.jpg" class="img-prodotto"/>
+            
+            <div class="product-info-text">
+                <p class="nome_creatore">Nome creatore:</p>
+                <p class="nome_creatore">Nome prodotto:</p>
+                <p class="nome_creatore">Categoria prodotto:</p>
+                <p class="nome_creatore">Prezzo prodotto:</p>
+            </div>
+
+            <div class="product-info-data">
+                <p class="nome_creatore_data">Marco</p>
+                <p class="nome_creatore_data">Marco#1357</p>
+                <p class="nome_creatore_data">NFT</p>
+                <p class="nome_creatore_data">99.50€</p>
+            </div>
+            
+
+        </div>
+
+        <div class="space"></div>
+
+        <div class="bottom-div">
+            <i class="fa-solid fa-circle-plus" id="add-card"></i>
+        </div>
+
+    </section>
+
     <section class="chosing-section">
         <img src="../../imgs/logo.png" class="logo-page"/>
         <p class="logo-text">ccount</p>
 
 
         <div class="chosing-div" id="clicked-profilo">
-            <p>Il tuo account</p>
+            <p id="account-title">Il tuo account</p>
         </div>
 
         <div class="chosing-div" id="clicked-pagamento">
-            <p>I tuoi metodi di pagamento</p>
+            <p id="payment-title">I tuoi metodi di pagamento</p>
         </div>
 
         <div class="chosing-div" id="clicked-record">
-            <p>Record delle attività effettuate</p>
+            <p id="record-title">Record delle attività effettuate</p>
         </div>
 
         <div class="chosing-div" id="clicked-prodotti">
-            <p>I miei prodotti</p>
+            <p id="products-title">I miei prodotti</p>
         </div>
     </section>
 
     
+    <script src="./profilo.js"></script>
+    <script src="https://kit.fontawesome.com/130673bc48.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
