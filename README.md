@@ -203,7 +203,7 @@ Then push:
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Paolo D'Alessandro](www.linkedin.com/in/paolo-dalex)
+* [Paolo D'Alessandro](https://www.linkedin.com/in/paolo-dalex)
 * [Jimwell Fulgencio](https://www.linkedin.com/in/jimwellf/)
 * [Robert Hanu](https://www.linkedin.com/in/robert-hanu/)
 * [Nicholas Santoro](https://www.linkedin.com/in/nicholas-santoro-3569a3225/)
