@@ -133,3 +133,25 @@ function prodotti_click(){
     record_section.style.display = "none";  
 
 }
+
+
+const add_card = document.getElementById("add-card");
+const card = document.getElementById("card-information-div");
+
+const close_tab = document.getElementById("close-tab");
+
+add_card.onclick = function(){
+    added_new_card();
+}
+
+function added_new_card(){
+    card.style.display = "block";
+}
+
+close_tab.onclick = function(){
+    close_tab_click();
+}
+
+function close_tab_click(){
+    card.style.display = "none";
+}
